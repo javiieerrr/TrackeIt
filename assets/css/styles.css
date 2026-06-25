@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #d7e8fa, #bdd5ec);
+}
+#app {
+  width: min(900px, 92%);
+  margin: 50px auto;
+  padding: 40px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+h1 {
+  margin: 0 0 8px;
+  text-align: center;
+  color: #23374d;
+  font-size: clamp(2rem, 6vw, 3rem);
+}
+.subtitulo {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #5d7287;
+}
+.controles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+input {
+  flex: 1;
+  min-width: 180px;
+  padding: 12px;
+  border: 1px solid #bfd3e8;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+input:focus {
+  outline: none;
+  border-color: #3488ff;
+}
+button {
+  padding: 12px 20px;
+  background: #3488ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  background: #2269d4;
+}
+.recordatorio {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #b84b4b;
+}
+ul {
+  padding: 0;
+  margin-top: 30px;
+}
+li {
+  list-style: none;
+  background: #f5f9fd;
+  border: 1px solid #d9e7f5;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+li button {
+  margin-left: 10px;
+}

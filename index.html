@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TrackIt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>TrackIt🎯</h1>
+        <p class="subtitulo">📌 Gestor de objetivos personales </p>
+        <div class="controles">
+            <input type="text" id="input-nombre" placeholder="Nombre del objetivo">
+            <input type="number" id="input-dif" placeholder="Dificultad (1–5)">
+            <button id="btn-agregar">Agregar </button>
+        </div>
+        <small class="recordatorio"> Los objetivos completados no se pueden modificar. </small>
+        <ul id="lista-objetivos"></ul>
+    </div>
+    <script src="assets/js/logica.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
